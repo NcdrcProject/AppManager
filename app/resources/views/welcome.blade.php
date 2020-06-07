@@ -231,12 +231,13 @@ div.user-image {
   box-sizing: border-box;
   margin: 10px 0;
 }
+/*
 #sidebar-nav ul {
 
 }
 #sidebar-nav ul li {
 
-}
+} */
 #sidebar-nav ul li a {
   color: #C2C2C2;
   font-size: .95em;
@@ -281,12 +282,12 @@ div.user-image {
     width: 12px;
 }
 ::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
     border-radius: 10px;
 }
 ::-webkit-scrollbar-thumb {
     border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 .content {
   float: left;
